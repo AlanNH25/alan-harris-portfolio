@@ -1,0 +1,61 @@
+.card-home {    
+   -webkit-column-count: 7;    
+   -webkit-column-gap: 0px;    
+   -moz-column-count: 7;
+   -moz-column-gap: 0px;
+    column-count: 7;    
+    column-gap: 0px;   
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(36%) blur(3.5px);
+
+
+} 
+.container {
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    text-align: center;
+    color: white;
+    
+    
+}
+.container-text {
+    color: #fff;
+    margin-top: -100px;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}   
+
+.container-text2 {
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}   
+
+
+.container-text  {
+    font-size: 120px;
+    border-bottom: 1px;
+}   
+
+.container-text2 {
+    font-size: 70px;
+}   
+
+.blur {
+    filter: blur(3.5px);
+  }
