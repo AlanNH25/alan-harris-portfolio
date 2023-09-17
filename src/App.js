@@ -12,7 +12,7 @@ import Concepts from './components/pages/Concepts'
 import Drawings from './components/pages/Drawings'
 import Home from './components/pages/Home'
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
 

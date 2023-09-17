@@ -19,7 +19,7 @@ export default function Footer() {
           alannharris25@gmail.com
           </div>
       </div>
-      <img src = "../images/Signature2.png" class = "signature"></img>
+      <img src = "https://alannh25.github.io/alan-harris-portfolio/images/Signature2.png" class = "signature"></img>
       <div class='website-rights'>
         <small > Alan Harris © 2022 </small>
       </div>
