@@ -243,5 +243,17 @@ export default [
         "id": 42,
         "type": "art-commisions",
         "img": "https://alannh25.github.io/alan-harris-portfolio/images/old-commissions/Wally_JoJo.png"
+    },
+    {
+        "id": 43,
+        "name": "Poison Ivy",
+        "type": "art-piece",
+        "img": "https://alannh25.github.io/alan-harris-portfolio/images/drawings/ivy.png" 
+    },
+    {
+        "id": 44,
+        "name": "Island Village Concept",
+        "type": "art-concept",
+        "img": "https://alannh25.github.io/alan-harris-portfolio/images/concepts/islandVillageConcept.png"
     }
 ]
