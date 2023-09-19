@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/alan-harris-portfolio/static/css/main.f0c8969d.css",
+    "main.css": "/alan-harris-portfolio/static/css/main.8206fdf3.css",
     "main.js": "/alan-harris-portfolio/static/js/main.9e3d798e.js",
     "index.html": "/alan-harris-portfolio/index.html",
-    "main.f0c8969d.css.map": "/alan-harris-portfolio/static/css/main.f0c8969d.css.map",
+    "main.8206fdf3.css.map": "/alan-harris-portfolio/static/css/main.8206fdf3.css.map",
     "main.9e3d798e.js.map": "/alan-harris-portfolio/static/js/main.9e3d798e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0c8969d.css",
+    "static/css/main.8206fdf3.css",
     "static/js/main.9e3d798e.js"
   ]
 }
