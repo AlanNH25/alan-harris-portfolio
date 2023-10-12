@@ -4,30 +4,27 @@ import './Gallery.css';
 import data from './../pieces'
 
 export default function Gallery(props) {
-    const galleryImages = data;
+  const galleryImages = data;
 
   const [slideNumber, setSlideNumber] = useState(0)
   const [openModal, setOpenModal] = useState(false)
 
-  const handleOpenModal = (index) => {
+  function handleOpenModal(index){
     setSlideNumber(index)
     setOpenModal(true)
   }
 
-  // Close Modal
-  const handleCloseModal = () => {
+  function handleCloseModal() {
     setOpenModal(false)
   }
 
-  // Previous Image
-  const prevSlide = () => {
+  function prevSlide(){
     slideNumber === 0 
     ? setSlideNumber( galleryImages.length -1 ) 
     : setSlideNumber( slideNumber - 1 )
   }
 
-  // Next Image  
-  const nextSlide = () => {
+  function nextSlide() {
     slideNumber + 1 === galleryImages.length 
     ? setSlideNumber(0) 
     : setSlideNumber(slideNumber + 1)
@@ -38,11 +35,11 @@ export default function Gallery(props) {
 
       {openModal && 
         <div className='sliderWrap'>
-          <button className='btnClose' onClick={handleCloseModal}  >  <i class="gallery-button fa fa-circle-xmark"/> </button>
+          <button className='btnClose' onClick={handleCloseModal}>  <i class="gallery-button fa fa-circle-xmark"/> </button>
           {/* <button className='btnPrev' onClick={prevSlide} > <i class="gallery-button fa-solid fa-chevron-left"/> </button>
           <button className='btnNext' onClick={nextSlide} > <i class="gallery-button fa-solid fa-chevron-right"/> </button> */}
           <div className='fullScreenImage'>
-            <img src={galleryImages[slideNumber].img} alt='' />
+            <img src={process.env.PUBLIC_URL + galleryImages[slideNumber].img} alt='' />
             <h2 class="art-name">{galleryImages[slideNumber].name}</h2>
           </div>
         </div>
@@ -58,7 +55,7 @@ export default function Gallery(props) {
                     key={index}
                     onClick={ () => handleOpenModal(index) }
                 >
-                    <img className = "card-image"src={slide.img} alt='' />
+                    <img className = "card-image"src={process.env.PUBLIC_URL + slide.img} alt='' />
                 </div>
                 )
             } else{
