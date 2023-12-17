@@ -1,5 +1,11 @@
 export default [
     {
+        "id": 45,
+        "name": "Sages' Final Battle",
+        "type": "art-piece",
+        "img": "/images/art-pieces/sages2.png"
+    },
+    {
         "id": 1,
         "name": "Daredevil",
         "type": "art-piece",
@@ -267,5 +273,36 @@ export default [
         "name": "Island Village Concept",
         "type": "art-concept",
         "img": "/images/concepts/islandVillageConcept.png"
+    },
+    {
+        "id": 46,
+        "name": "Fighter Character",
+        "type": "art-concept",
+        "img": "/images/concepts/Fighter.png"
+    },
+    {
+        "id": 47,
+        "name": "Cartoon Game Character Concepts (1)",
+        "type": "art-concept",
+        "img": "/images/concepts/gameCharacters1.png"
+    },
+    {
+        "id": 48,
+        "name": "Cartoon Game Character Concepts (2)",
+        "type": "art-concept",
+        "img": "/images/concepts/gameCharacters2.png"
+    },
+    {
+        "id": 49,
+        "name": "Azula",
+        "type": "art-drawings",
+        "img": "/images/drawings/azula.png"
+    },
+    {
+        "id": 50,
+        "name": "Rock Lee",
+        "type": "art-drawings",
+        "img": "/images/drawings/rocklee3.png"
     }
+    
 ]
